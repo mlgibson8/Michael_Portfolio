@@ -36,21 +36,28 @@ const Navbar = () => {
     </ul>
 
 {/* socials */}
-<div className='flex fixed flex-col top-[35%] left-0'>
+<div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
 <ul>
     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
     <a className='flex justify-between items-center w-full text-grey-300'
     href='/'>LinkedIn <FaLinkedin size={40} /></a>
     </li>
-    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-black-600'>
+    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-purple-900'>
     <a className='flex justify-between items-center w-full text-grey-300'
     href='/'>GitHub <FaGithub size={40} /></a>
     </li>
-    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-pink-400'>
+    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-purple-500'>
     <a className='flex justify-between items-center w-full text-grey-300'
-    href='/'>Instagram <FaInstagram size={40} /></a>
+    href='/'>Insta <FaInstagram size={40} /></a>
     </li>
-
+    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-amber-700'>
+    <a className='flex justify-between items-center w-full text-grey-300'
+    href='/'>Email <HiOutlineMail size={40} /></a>
+    </li>
+    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-400'>
+    <a className='flex justify-between items-center w-full text-grey-300'
+    href='/'>Resume <BsFillPersonLinesFill size={40} /></a>
+    </li>
 </ul>
 </div>
 
