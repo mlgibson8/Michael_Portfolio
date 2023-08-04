@@ -38,7 +38,19 @@ const Navbar = () => {
 {/* socials */}
 <div className='flex fixed flex-col top-[35%] left-0'>
 <ul>
-    <li><a href='/'>LinkedIn <FaInstagram /> </a></li>
+    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+    <a className='flex justify-between items-center w-full text-grey-300'
+    href='/'>LinkedIn <FaLinkedin size={40} /></a>
+    </li>
+    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-black-600'>
+    <a className='flex justify-between items-center w-full text-grey-300'
+    href='/'>GitHub <FaGithub size={40} /></a>
+    </li>
+    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-pink-400'>
+    <a className='flex justify-between items-center w-full text-grey-300'
+    href='/'>Instagram <FaInstagram size={40} /></a>
+    </li>
+
 </ul>
 </div>
 
