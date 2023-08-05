@@ -25,6 +25,9 @@ const Navbar = () => {
         <li><Link  to="technology"  smooth={true}  duration={500}>
           Technologies
         </Link></li>
+        <li><Link  to="work"  smooth={true}  duration={500}>
+          Projects
+        </Link></li>
         <li><Link  to="contact"  smooth={true}  duration={500}>
           Contact
         </Link></li>
@@ -39,11 +42,24 @@ const Navbar = () => {
 </div>
 {/* mobile menu */}
 <ul className={!nav ? 'hidden':'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-        <li className='py-6 text-4xl'>Home</li>
-        <li className='py-6 text-4xl'>About</li>
-        <li className='py-6 text-4xl'>Portfolio</li>
-        <li className='py-6 text-4xl'>Contact</li>
-        <li className='py-6 text-4xl'>Resume</li>
+        <li  className='py-6 text-4xl'><Link onClick={handleClick}  to="home"  smooth={true}  duration={500}>
+          Home
+        </Link></li>
+        <li  className='py-6 text-4xl'><Link onClick={handleClick}  to="about"  smooth={true}  duration={500}>
+          About
+        </Link></li>
+        <li  className='py-6 text-4xl'><Link onClick={handleClick}  to="technology"  smooth={true}  duration={500}>
+          Technologies
+        </Link></li>
+        <li  className='py-6 text-4xl'><Link onClick={handleClick}  to="work"  smooth={true}  duration={500}>
+          Projects
+        </Link></li>
+        <li  className='py-6 text-4xl'><Link onClick={handleClick}  to="contact"  smooth={true}  duration={500}>
+          Contact
+        </Link></li>
+        <li  className='py-6 text-4xl'><Link onClick={handleClick}  to="resume"  smooth={true}  duration={500}>
+          Resume
+        </Link></li>
     </ul>
 
 {/* socials */}
@@ -51,19 +67,19 @@ const Navbar = () => {
 <ul>
     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
     <a className='flex justify-between items-center w-full text-grey-300'
-    href='/'>LinkedIn <FaLinkedin size={40} /></a>
+    href='https://www.linkedin.com/in/michael-gibson-067731280/'>LinkedIn <FaLinkedin size={40} /></a>
     </li>
     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-purple-900'>
     <a className='flex justify-between items-center w-full text-grey-300'
-    href='/'>GitHub <FaGithub size={40} /></a>
+    href='https://github.com/mlgibson8'>GitHub <FaGithub size={40} /></a>
     </li>
     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-purple-500'>
     <a className='flex justify-between items-center w-full text-grey-300'
-    href='/'>Insta <FaInstagram size={40} /></a>
+    href='https://www.instagram.com/notgibby/'>Insta <FaInstagram size={40} /></a>
     </li>
     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-amber-700'>
     <a className='flex justify-between items-center w-full text-grey-300'
-    href='/'>Email <HiOutlineMail size={40} /></a>
+    href='mlgibson8@gmail.com'>Email <HiOutlineMail size={40} /></a>
     </li>
     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-400'>
     <a className='flex justify-between items-center w-full text-grey-300'
