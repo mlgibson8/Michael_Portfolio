@@ -4,7 +4,7 @@ import EmployeeTracker from '../assets/Employee_Tracker_Backend.png'
 import NoteTaker from '../assets/Note_Taker_Backend.png'
 import ProgressiveWeb from '../assets/Progressive_Web_App.png'
 import SQL from '../assets/Project2_SQL.png'
-import TechBlog from '../assets/Tech_Blog.png'
+/* import TechBlog from '../assets/Tech_Blog.png' */
 
 export const data = [
     {
@@ -42,11 +42,11 @@ export const data = [
         github:"https://github.com/mlgibson8/Project_2_Group_5",
         live:"https://project-2-team-5.herokuapp.com",
     },
-    {
+   /*  {
         id: 6,
         title: 'Tech Blog',
         image: TechBlog,
         github:"https://github.com/mlgibson8/Tech_blog",
         live:"https://blooming-ridge-99560-01d87991cc95.herokuapp.com",
-    },
+    }, */
 ]
