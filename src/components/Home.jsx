@@ -1,6 +1,9 @@
-import React from 'react'
+import React,{useState} from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
+import { Link } from 'react-scroll'
 const Home = () => {
+  const [nav, setNav] = useState(false)
+  const handleClick = () => setNav(!nav)
   return (
 
     <div name="home" className='w-full h-screen bg-[#0a192f]'>
@@ -11,7 +14,9 @@ const Home = () => {
       <h2 className='text-4xl sm:text-7xl font bold text-green-500'> a full-stack developer!</h2>
       <p className='text-blue-500 py-4 max-w-[700px]'>A recent graduate of Denver University blah blah</p>
       <div>
-        <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-teal-600 hover:border-pink-600'>work 
+        <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-teal-600 hover:border-pink-600'><Link onClick={handleClick}  to="work"  smooth={true}  duration={500}>
+          Projects
+        </Link> 
         <span className='group-hover:rotate-90 duraton-300'>
         <HiArrowNarrowRight className='ml-3' />
         </span>
