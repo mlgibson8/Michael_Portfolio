@@ -36,12 +36,12 @@ export const data = [
         live:"https://github.com/mlgibson8/PWA-Text",
     },
     {
-        id: 5,
+       id: 5,
         title: 'cant wait for the sql',
         image: SQL,
         github:"https://github.com/mlgibson8/Project_2_Group_5",
         live:"https://project-2-team-5.herokuapp.com",
-    },
+    }
    /*  {
         id: 6,
         title: 'Tech Blog',
