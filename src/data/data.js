@@ -33,7 +33,7 @@ export const data = [
         title: 'Progressive Web App',
         image: ProgressiveWeb,
         github:"https://github.com/mlgibson8/PWA-Text",
-        live:"https://github.com/mlgibson8/PWA-Text",
+        live:"https://mlgibson-pwa-text-e16fc99d4a2c.herokuapp.com/",
     },
     {
        id: 5,

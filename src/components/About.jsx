@@ -14,7 +14,7 @@ const About = () => {
                     <div className='sm:text-right text-4xl font-bold'>
                         <p>Hello, I'm michael. this is my homepage</p>
                     </div>
-                    <p>filler About me text</p>
+                    <p>Outside of the coding realm, I maintain a healthy work-life balance by pursuing various hobbies. Whether it's hiking, weight-lifting, or grilling, I believe that diverse interests foster creativity and a fresh perspective on problem-solving.</p>
                      </div>
             </div>
          </div>
