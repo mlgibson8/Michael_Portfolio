@@ -3,7 +3,7 @@
 ## Description
   This is my React Portfolio to show front-end skills and  link to my other projects
 ## Screenshots
-![Screenshot](undefined)
+![Screenshot](https://github.com/mlgibson8/Michael_Portfolio/blob/main/src/assets/Portfolio.png)
 ## Table of Contents
 * [Installation](#installation)
 * [Features](#features)
