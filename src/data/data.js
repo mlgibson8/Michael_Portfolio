@@ -4,7 +4,7 @@ import EmployeeTracker from '../assets/Employee_Tracker_Backend.png'
 import NoteTaker from '../assets/Note_Taker_Backend.png'
 import ProgressiveWeb from '../assets/Progressive_Web_App.png'
 import SQL from '../assets/Project2_SQL.png'
-import Visonary from '../assets/Visionary.png'
+import Visonary from '../assets/visionary.png'
 /* import TechBlog from '../assets/Tech_Blog.png' */
 
 export const data = [
