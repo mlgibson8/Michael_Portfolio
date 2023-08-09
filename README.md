@@ -22,7 +22,8 @@
 ## How to use
     n/a
 ## Contributors
-    mlgibson8
+    mlgibson8 
+    help with tailwind setup https://www.youtube.com/watch?v=2kg0z1qNrkw&t=1s
 ## Testing
     n/a
 ## Questions
