@@ -4,6 +4,7 @@ import EmployeeTracker from '../assets/Employee_Tracker_Backend.png'
 import NoteTaker from '../assets/Note_Taker_Backend.png'
 import ProgressiveWeb from '../assets/Progressive_Web_App.png'
 import SQL from '../assets/Project2_SQL.png'
+import Visonary from '../assets/Visionary.png'
 /* import TechBlog from '../assets/Tech_Blog.png' */
 
 export const data = [
@@ -41,6 +42,14 @@ export const data = [
         image: SQL,
         github:"https://github.com/mlgibson8/Project_2_Group_5",
         live:"https://project-2-team-5.herokuapp.com",
+    },
+    {
+        id: 6,
+        title: 'Visonary Vault',
+        image: Visonary,
+        github:"https://github.com/kitdhing/visionaryvault",
+        live: "https://visionary-vault-0d00f00f3245.herokuapp.com/",
+
     }
    /*  {
         id: 6,
