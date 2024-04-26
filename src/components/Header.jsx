@@ -31,9 +31,10 @@ const Header = () => {
         <li><Link  to="contact"  smooth={true}  duration={500}>
           Contact
         </Link></li>
-        <li><Link  to="resume"  smooth={true}  duration={500}>
+        <li><a className href='https://docs.google.com/document/d/15mPKbOF4GOr4jhGRSFP783wJOE6EutXxHs9GZYVUIyI/edit?usp=sharing'>
           Resume
-        </Link></li>
+        </a></li>
+        
     </ul>
 
 {/* menu2 */}
