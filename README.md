@@ -1,4 +1,4 @@
-# Michael Gibons Portfolio
+# Michael Gibsons Portfolio
 ![Github License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ## Description
   This is my React Portfolio to show front-end skills and  link to my other projects
