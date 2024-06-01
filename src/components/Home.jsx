@@ -9,7 +9,7 @@ const Home = () => {
     <div name="home" className='w-full h-screen bg-[#0a192f]'>
     {/* container */}
     <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-      <p className='text-red-400'>Hello! Welcome to my page.</p>
+      <p className='text-7xl text-red-400'>Hello! Welcome to my page.</p>
       <h1 className='text-4xl sm:text-7xl font-bold text-teal-600'>I'm Michael</h1>
       <h2 className='text-4xl sm:text-7xl font bold text-green-500'> a full-stack developer!</h2>
       <p className='text-blue-500 py-4 max-w-[700px]'>A recent graduate of Denver University I've been honing my skills in front-end and back-end technologies, a wide range of programming languages including HTML, CSS, JavaScript.
