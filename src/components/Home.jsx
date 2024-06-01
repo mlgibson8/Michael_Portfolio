@@ -15,8 +15,8 @@ const Home = () => {
       <p className='text-blue-500 py-4 max-w-[700px]'>A recent graduate of Denver University I've been honing my skills in front-end and back-end technologies, a wide range of programming languages including HTML, CSS, JavaScript.
       Through countless hours of hands-on projects and collaborative coding challenges, I have not only built a solid foundation but also learned the art of efficient problem-solving and creative thinking. </p>
       <div>
-        <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-teal-600 hover:border-pink-600'><Link onClick={handleClick} to="work"  smooth={true} duration={50}>
-          Projects
+        <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-teal-600 hover:border-pink-600'><Link onClick={handleClick} to="work" smooth={true} duration={50}>
+        Projects
         </Link> 
         <span className='group-hover:rotate-90 duraton-300'>
         <HiArrowNarrowRight className='ml-3' />
